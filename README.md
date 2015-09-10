@@ -18,6 +18,11 @@ function midiNoteIn (ev)
  console.log (ev);
  }
  
+function midiConnected () {
+console.log ("midi Connected");
+console.log (LP);	
+}
+ 
 function renderFrame (delta)
 {
 // this function would handle rendering new data.
