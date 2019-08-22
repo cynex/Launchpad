@@ -31,10 +31,4 @@ LP.clearScreen(0);
 vel = LP.rgColor (red,green);
 LP.setPixel (x,y,vel);
 }
-
-
-// There is some beta code in the launchpad js file which I will discuss
-// once I have done full testing. functions include :
-// new MK2 Palette, copy from HTML5 Canvas to launchpad.
-// stay tuned !
 ```
